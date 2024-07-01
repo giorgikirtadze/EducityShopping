@@ -1,0 +1,57 @@
+header {
+    background: rgba(35, 35, 35, 1);
+    display: flex;
+    color: white;
+    padding: 30px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .HeaderMiddleContainer {
+    display: flex;
+    align-items: center;
+    gap: 127px;
+}
+header .HeaderMiddleContainer nav{
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1%;
+}
+header .HeaderMiddleContainer .HeaderMiddleContainerInput{
+    background: rgba(255, 255, 255, 1);
+    width: 289px;
+    padding: 12px 17px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    /* height: 37px; */
+    border-radius: 50px;
+}
+.HeaderMiddleContainerInput input {
+    width: max-content;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-weight: 400;
+    line-height: 18px;
+}
+.HeaderLeftContainer {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    align-items: center;
+}
+.HeaderLeftContainer div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -3%;
+    color: rgba(255, 255, 255, 1);
+}
+.HeaderCartpart {
+    margin-top: 4px;
+}

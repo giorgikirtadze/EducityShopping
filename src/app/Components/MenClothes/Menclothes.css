@@ -1,0 +1,72 @@
+.MenclothesContainer {
+    padding: 0px 50px;
+}
+
+.MenclothesContentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+/* .MensContainer { */
+    /* width: 255px; */
+    /* flex:  auto auto auto; */
+    /* flex: 1 1 auto;  */
+    /* margin: 10px;  */
+/* } */
+.MensClothesHead {
+    color: rgba(35, 35, 35, 1);
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.MensContainerbrpric {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MensContainerbrpric h5{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.66);
+    font-size: 11px;
+    line-height: 16.5px;
+}
+.MensContainerbrpric h4 {
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    padding-right: 8px;
+}
+.MensContainermodsize {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.MensContainermodsize h4{
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.MensclothesSize{
+    margin-top: 7px;
+    display: flex;
+    padding-right: 6px;
+    gap: 4px;
+}
+.MensContainermodsize .MensclothesSize h5{
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 9px;
+    line-height: 13px;
+    justify-content: center;
+    display: flex;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    background: rgba(217, 217, 217, 1);
+}
